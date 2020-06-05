@@ -1,6 +1,6 @@
 //Test Suite
 
-describe("js1-mini-project", function () {
+describe("JavaScript1 Mini Project", function () {
 	describe("Problem 1 - greeting and farewell", function () {
 		it("greeting variable should exist", function () {
 			expect(greeting).toBeDefined();
