@@ -174,18 +174,18 @@ describe("JavaScript1 Mini Project", function () {
 		});
 	});
 	describe("Problem 13 - sum", function () {
-		it("sum should exist", function () {
-			expect(sum).toBeDefined();
-			expect(typeof sum).toBe("function");
-		});
-		it("should equal the sum of number1 and number2", function () {
-			expect(sum(number1, number2)).toBe(number1 + number2);
+		it("should equal the sum of the two arguments passed into the function", function () {
+			expect(sum(1, 2)).toBe(3);
 		});
 	});
 	describe("Problem 14 - multiply", function () {
-		it("multiply should exist", function () {
-			expect(multiply).toBeDefined();
-			expect(typeof multiply).toBe("function");
+		it("number1 should exist", function () {
+			expect(number1).toBeDefined();
+			expect(typeof number1).toBe("number");
+		});
+		it("number2 should exist", function () {
+			expect(number2).toBeDefined();
+			expect(typeof number2).toBe("number");
 		});
 		it("should equal the multiplication of number1 and number2", function () {
 			expect(multiply()).toBe(number1 * number2);
@@ -370,6 +370,9 @@ describe("JavaScript1 Mini Project", function () {
 			expect(doIHaveFreeTime()).toBe("free time!");
 		});
 		it(`should return nothing otherwise`, function () {
+			work = false;
+			chores = false;
+			expect(doIHaveFreeTime()).toBe("free time!");
 			work = true;
 			chores = true;
 			expect(doIHaveFreeTime()).toBeUndefined();
@@ -383,6 +386,10 @@ describe("JavaScript1 Mini Project", function () {
 			expect(crash).toBe(true);
 		});
 		it(`should do nothing otherwise`, function () {
+			currentSpeed = "fast";
+			brakes = false;
+			setCrash();
+			expect(crash).toBe(true);
 			crash = false;
 			currentSpeed = "fast";
 			brakes = true;
