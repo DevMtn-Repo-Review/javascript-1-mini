@@ -45,9 +45,13 @@
 
 //////////////////PROBLEM 6////////////////////
 
+// Do not edit the code below.
+let myCar = "Jeep";
+// Do not edit the code above.
+
+
 // Set the variable myCar to be null
 
-let myCar = "Jeep";
 
 //Code here
 
@@ -102,14 +106,7 @@ let myCar = "Jeep";
 
 //////////////////PROBLEM 12////////////////////
 
-// Create a variable called dataTypes which should be an array of the following 6 items:
-//   the number 42
-//   the string "meaning"
-//   the boolean true
-//   an array with 5 numbers
-//   the object spaceship (provided for you)
-//   the function launch (provided for you)
-
+// Do not edit the code below.
 const spaceship = {
 	fuel: "liquid hydrogen",
 	topSpeed: 36000,
@@ -121,6 +118,17 @@ function launch() {
 	spaceship.fuelLevel -= 30;
 	spaceship.altidude += 1000;
 }
+// Do not edit the code above.
+
+
+// Create a variable called dataTypes which should be an array of the following 6 items:
+//   the number 42
+//   the string "meaning"
+//   the boolean true
+//   an array with 5 numbers
+//   the object spaceship (provided for you)
+//   the function launch (provided for you)
+
 
 //Code here
 
@@ -153,10 +161,13 @@ function multiply() {
 
 //////////////////PROBLEM 15////////////////////
 
+// Do not edit the code below.
+let food = 'pizza';
+// Do not edit the code above.
+
+
 // Edit the function favFood so that when it is invoked it returns the string "My favorite food is pizza"
 // In your solution code, use template strings (not concatenation) and use the food variable provided
-
-let food = 'pizza';
 
 function favFood(){
   return // Code here
@@ -166,11 +177,14 @@ function favFood(){
 
 //////////////////PROBLEM 16////////////////////
 
-// Edit the function assignName so that when it is invoked with the variable theName passed in as an argument,
-// the function assigns the value of theName to theBoss variable
-
+// Do not edit the code below.
 let theName = 'Jeremy';
 let theBoss;
+// Do not edit the code above.
+
+
+// Edit the function assignName so that when it is invoked with the variable theName passed in as an argument,
+// the function assigns the value of theName to theBoss variable
 
 function assignName(name){
   // Code here
@@ -180,14 +194,17 @@ function assignName(name){
 
 //////////////////PROBLEM 17////////////////////
 
-// Using the user object provided below,
-// edit the function getName so that it accesses the name property of the user object and returns its value
-
+// Do not edit the code below.
 let user = {
   name: "Billy",
   age: 18,
   email: "billy123@billy.com"
 };
+// Do not edit the code above.
+
+
+// Using the user object provided,
+// edit the function getName so that it accesses the name property of the user object and returns its value
 
 function getName(userObj){
   return // Code here
@@ -197,16 +214,19 @@ function getName(userObj){
 
 //////////////////PROBLEM 18////////////////////
 
-// Edit the function getWeekDay so that it returns the 3rd item in the weekDays array stored in the calendar object
-
-// In your solution, use the correct notation to access the value "Tuesday" and do not simply return the string "Tuesday"
-// Make sure you are accessing it from the weekDays array of the calendar object
-
+// Do not edit the code below.
 let calendar = {
   months: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
   weekDays: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
   days: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31]
 }
+// Do not edit the code above.
+
+
+// Edit the function getWeekDay so that it returns the 3rd item in the weekDays array stored in the calendar object
+
+// In your solution, use the correct notation to access the value "Tuesday" and do not simply return the string "Tuesday"
+// Make sure you are accessing it from the weekDays array of the calendar object
 
 function getWeekDay(calendar){
   return // Code here
@@ -224,11 +244,14 @@ function getWeekDay(calendar){
 
 //////////////////PROBLEM 20////////////////////
 
-// Create a function called createName that takes in no parameters and returns the result of concatenating firstName and lastName (provided)
-// The returned value should include a space between the first and last names and should use concatenation (not template strings)
-
+// Do not edit the code below.
 let firstName = "Indiana";
 let lastName = "Jones";
+// Do not edit the code above.
+
+
+// Create a function called createName that takes in no parameters and returns the result of concatenating firstName and lastName (provided)
+// The returned value should include a space between the first and last names and should use concatenation (not template strings)
 
 // Code here
 
@@ -273,11 +296,14 @@ let lastName = "Jones";
 
 //////////////////PROBLEM 25////////////////////
 
+// Do not edit the code below.
+let age = "TBD";
+// Do not edit the code above.
+
+
 // Inside the isOldEnough function, write an if/else statement that will return "old enough" if the age variable is greater than 21 and returns "not yet" otherwise
 // Use the if and else keywords in your solution
 // The variable age will be changed during testing
-
-let age = "TBD";
 
 function isOldEnough(){
   // Code here
@@ -287,11 +313,14 @@ function isOldEnough(){
 
 //////////////////PROBLEM 26////////////////////
 
+// Do not edit the code below.
+let workEthic = "TBD";
+// Do not edit the code above.
+
+
 // Inside the successPredictor function, write an if/else statement that will return "success at DevMountain" if the workEthic variable is "great" and returns "failure at DevMountain" otherwise
 // Use the if and else keywords in your solution
 // The variable workEthic will be changed during testing
-
-let workEthic = "TBD";
 
 function successPredictor(){
   // Code here
@@ -301,11 +330,14 @@ function successPredictor(){
 
 //////////////////PROBLEM 27////////////////////
 
+// Do not edit the code below.
+let cookieType = "TBD";
+// Do not edit the code above.
+
+
 // Inside the eatOrTrash function, write an if/else statement that will return "throw in trash" if the cookieType variable is "raisin" and returns "eat" otherwise
 // Use the if and else keywords in your solution
 // The variable cookieType will be changed during testing
-
-let cookieType = "TBD";
 
 function eatOrTrash(){
   // Code here
@@ -315,12 +347,15 @@ function eatOrTrash(){
 
 //////////////////PROBLEM 28////////////////////
 
+// Do not edit the code below.
+let myTeamScore = "TBD";
+let yourTeamScore = "TBD";
+// Do not edit the code above.
+
+
 // Inside the finalScore function, write an if/else statement that will return "we are the champions" if the myTeamScore variable is greater than the yourTeamScore variable and returns ":(" otherwise
 // Use the if and else keywords in your solution
 // The myTeamScore and yourTeamScore variables will be changed during testing
-
-let myTeamScore = "TBD";
-let yourTeamScore = "TBD";
 
 function finalScore(){
   // Code here
@@ -330,6 +365,11 @@ function finalScore(){
 
 //////////////////PROBLEM 29////////////////////
 
+// Do not edit the code below.
+age = "TBD";
+// Do not edit the code above.
+
+
 // Inside the findCorrectTransportation function, write an if/else statement that will check the age variable and return the correct response according to the following criteria:
   // if age is from 3 to 7, return "tricycle"
   // if age is from 8 to 15, return "bicycle"
@@ -337,8 +377,6 @@ function finalScore(){
 
 // Use the if and else keywords in your solution
 // The variable age will always be a number and will be changed during testing
-
-age = "TBD";
 
 function findCorrectTransportation(){
   // Code here
@@ -348,15 +386,18 @@ function findCorrectTransportation(){
 
 //////////////////PROBLEM 30////////////////////
 
+// Do not edit the code below.
+let cash = "TBD";
+let temp = "TBD";
+// Do not edit the code above.
+
+
 // Inside the doIGetIceCream function, write an if/else statement that will check the cash and temp variables and return the correct response according to the following criteria:
   // if temp is equal to "hot" and money is true, return "Get Ice Cream!"
   // otherwise return "Save up for another day."
 
 // Use the if and else keywords in your solution
 // The variable age will always be a number and will be changed during testing
-
-let cash = "TBD";
-let temp = "TBD";
 
 function doIGetIceCream(){
   // Code here
@@ -366,14 +407,17 @@ function doIGetIceCream(){
 
 //////////////////PROBLEM 31////////////////////
 
+// Do not edit the code below.
+let chores = "TBD";
+let work = "TBD";
+// Do not edit the code above.
+
+
 // Inside the doIHaveFreeTime function, write an if/else statement that return "free time!" if either chores or work are false
 
 // In your solution, be sure to use the logical NOT operator (bang operator) instead of using true or false keywords
 // Use the if and else keywords in your solution
 // The chores and work variables will always be true or false and will be changed during testing
-
-let chores = "TBD";
-let work = "TBD";
 
 function doIHaveFreeTime(){
   // Code here
@@ -383,16 +427,19 @@ function doIHaveFreeTime(){
 
 //////////////////PROBLEM 32////////////////////
 
+// Do not edit the code false.
+let crash = false;
+let currentSpeed = "TBD";
+let brakes = "TBD";
+// Do not edit the code above.
+
+
 // Inside the setCrash function, write an if/else statement that will set the value of crash to true if currentSpeed is "fast" and brakes is false and does nothing otherwise
 
 // In your solution, be sure to use the logical NOT operator (bang operator) instead of using true or false keywords
 // Use the if and else keywords in your solution
 // The currentSpeed variables will always be a string and will be changed during testing
 // The brakes variables will always be a boolean and will be changed during testing
-
-let crash = false;
-let currentSpeed = "TBD";
-let brakes = "TBD";
 
 function setCrash(){
   // Code here
@@ -402,6 +449,14 @@ function setCrash(){
 
 //////////////////PROBLEM 33////////////////////
 
+// Do not edit the code below.
+user = {
+  name: "Tiffany",
+  total: 50
+}
+// Do not edit the code above.
+
+
 // Write a function called makePurchase that takes in a parameter called priceOfItem
 // If priceOfItem is less than or equal to the total on the user object (provided), have the makePurchase function subtract priceOfItem from the user's total
 // If the priceOfItem is greater than the user total, makePurchase should return "not enough funds"
@@ -409,26 +464,13 @@ function setCrash(){
 // Use the if and else keywords in your solution
 // The arguments passed into makePurchase will always be numbers and will be changed during testing
 
-user = {
-  name: "Tiffany",
-  total: 50
-}
-
 // Code here
 
 
 
 //////////////////PROBLEM 34////////////////////
 
-// Write a function called decisionMaker that takes two parameters hungry and tired and and reacts according to the following criteria:
-  // if hungry is true and tired is false, invoke the eat function (provided)
-  // if hungry is false and tired is true, invoke the sleep function (provided)
-  // otherwise, return the string "undecided"
-
-// In your solution, be sure to use the logical NOT operator (bang operator) instead of using true or false keywords
-// Use the if and else keywords in your solution
-// The arguments passed into decisionMaker will always be true or false and will be changed during testing
-
+// Do not edit the code below.
 let hunger;
 let fatigue;
 
@@ -441,5 +483,16 @@ function sleep(){
   fatigue = "gone";
   return "zzz zzz zzz";
 }
+// Do not edit the code above.
+
+
+// Write a function called decisionMaker that takes two parameters hungry and tired and and reacts according to the following criteria:
+  // if hungry is true and tired is false, invoke the eat function (provided)
+  // if hungry is false and tired is true, invoke the sleep function (provided)
+  // otherwise, return the string "undecided"
+
+// In your solution, be sure to use the logical NOT operator (bang operator) instead of using true or false keywords
+// Use the if and else keywords in your solution
+// The arguments passed into decisionMaker will always be true or false and will be changed during testing
 
 // Code here
