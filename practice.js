@@ -229,9 +229,12 @@ let calendar = {
 // Make sure you are accessing it from the weekDays array of the calendar object
 
 function getWeekDay(calendar){
-  return // Code here
+  
+  const {weekDays:[,,abc]} = calendar
+  return abc
 }
 
+console.log(getWeekDay(calendar));
 
 
 //////////////////PROBLEM 19////////////////////
@@ -254,7 +257,8 @@ let lastName = "Jones";
 // The returned value should include a space between the first and last names and should use concatenation (not template strings)
 
 // Code here
-
+const createName = () => firstName.concat(" ",lastName)
+console.log(createName());
 
 
 //////////////////PROBLEM 21////////////////////
@@ -263,6 +267,8 @@ let lastName = "Jones";
 
 // Code here
 
+const showMeSeven = () => 7;
+console.log(showMeSeven());
 
 
 //////////////////PROBLEM 22////////////////////
@@ -496,3 +502,15 @@ function sleep(){
 // The arguments passed into decisionMaker will always be true or false and will be changed during testing
 
 // Code here
+
+const decisionMaker = (hungery, tired) =>{
+	if(hungery && !tired){
+		eat()
+	}
+	if(!hungery && tired){
+		sleep()
+	}
+	else{
+		return "undecided" 
+	}
+}
